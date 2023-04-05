@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(95.2deg, #e656a0 2.23%, #5f63d8 99.51%);
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+} 
+.place {
+   max-width: 1180px;
+   height: 392px;
+   box-shadow: 2px 2px 4px 0 rgb(129, 123, 123);
+   margin-top: 220px;
+   background-color: #ffffff;
+  border-radius: 10px;
+}
+h1 {
+ padding-top: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+.name_email {
+    display: flex;
+   gap: 20px;
+ justify-content: center;
+ margin-top: 35px;
+ flex-wrap: wrap;
+}
+input {  
+border: 1px solid #A2A2A2;
+    border-radius: 15px;
+    height: 50px;
+  width:  360px;
+    padding-left: 20px;
+}
+textarea {
+    padding-left: 18px;
+    margin: 10px;
+  width: 740px;
+border: 1px solid #A2A2A2;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  
+}
+button {   
+    transition: 400ms;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+
+ padding: 5px 20px;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+border-radius: 9px;
+display: block;
+margin: 0 auto;
+border: none;
+}
+.bg_images {
+    background-repeat: no-repeat; 
+    width: 90px;
+    height: 80px;
+}
+button:hover{
+    scale: 1.6;
+    text-decoration: underline;
+}
+@media (max-width: 740px) {
+    .place {
+      height: 450px;
+    }
+}
